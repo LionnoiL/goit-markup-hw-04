@@ -1,0 +1,46 @@
+.team {
+  background-color: #f4f4fd;
+}
+
+.team h2,
+.team h3,
+.team p {
+  text-align: center;
+}
+
+.team h2,
+.team h3 {
+  color: #2e2f42;
+}
+
+.team ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-card {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-card img {
+  display: block;
+}
+
+.team-card-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 16px;
+  gap: 8px;
+}
+
+.team .container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.team .title {
+  margin-bottom: 72px;
+}

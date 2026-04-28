@@ -1,0 +1,34 @@
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer p {
+  color: inherit;
+}
+
+.footer a {
+  color: inherit;
+}
+
+.footer .logo:hover {
+  color: inherit;
+}
+
+.footer .container {
+  align-items: flex-start;
+}
+
+.footer .container p {
+  margin-top: 16px;
+}
+
+.footer .left-block {
+  width: 264px;
+}
