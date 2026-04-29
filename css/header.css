@@ -9,6 +9,21 @@
   font-weight: 500;
 }
 
+.header nav .active {
+  position: relative;
+}
+
+.header nav .active::after {
+  content: '';
+  background-color: #404bbf;
+  border-radius: 2px;
+  width: 65px;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 .header a:hover,
 .header a:focus {
   color: #404bbf;
@@ -38,6 +53,8 @@
 
 .header nav li {
   align-self: flex-start;
+  display: flex;
+  flex-direction: column;
 }
 
 .header address ul {

@@ -63,6 +63,12 @@
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .social-media a:hover,
+.footer .social-media a:focus {
+  background-color: #31d0aa;
 }
 
 .footer .social-media .social-icon {
