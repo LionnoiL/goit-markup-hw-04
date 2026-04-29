@@ -5,7 +5,7 @@
       rgba(46, 47, 66, 0.7) 0%,
       rgba(46, 47, 66, 0.7) 100%
     ),
-    url(./images/hero-bg.jpg);
+    url(../images/hero-bg.jpg);
   background-position:
     top right,
     center;
