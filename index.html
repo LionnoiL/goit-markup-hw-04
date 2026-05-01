@@ -127,44 +127,65 @@
       <!-- #region Team -->
       <section id="team" class="section team">
         <div class="container">
-          <h2 class="title">Our Team</h2>
-          <ul>
-            <li class="team-card">
+          <h2 class="team__title">Our Team</h2>
+          <ul class="team__list">
+            <li class="team__item">
               <img
+                class="team-item__image"
                 src="./images/team-1.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
               >
-              <div class="team-card-title">
-                <h3>Mark Guerrero</h3>
-                <p>Product Designer</p>
-              </div>
-              <div class="team-card-social">
-                <ul>
-                  <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="team-item__content">
+                <div class="team-item__title">
+                  <h3 class="team-item__name">Mark Guerrero</h3>
+                  <p class="team-item__position">Product Designer</p>
+                </div>
+                <ul class="team-item__social__list">
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -173,107 +194,202 @@
                 </ul>
               </div>
             </li>
-            <li class="team-card">
+
+            <li class="team__item">
               <img
+                class="team-item__image"
                 src="./images/team-2.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
               >
-              <div class="team-card-title">
-                <h3>Tom Ford</h3>
-                <p>Frontend Developer</p>
-              </div>
-              <div class="team-card-social">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
+              <div class="team-item__content">
+                <div class="team-item__title">
+                  <h3 class="team-item__name">Tom Ford</h3>
+                  <p class="team-item__position">Frontend Developer</p>
+                </div>
+                <ul class="team-item__social__list">
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
 
-            <li class="team-card">
+            <li class="team__item">
               <img
+                class="team-item__image"
                 src="./images/team-3.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
               >
-              <div class="team-card-title">
-                <h3>Camila Garcia</h3>
-                <p>Marketing</p>
-              </div>
-              <div class="team-card-social">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
+              <div class="team-item__content">
+                <div class="team-item__title">
+                  <h3 class="team-item__name">Camila Garcia</h3>
+                  <p class="team-item__position">Marketing</p>
+                </div>
+                <ul class="team-item__social__list">
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="team-card">
+
+            <li class="team__item">
               <img
+                class="team-item__image"
                 src="./images/team-4.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
               >
-              <div class="team-card-title">
-                <h3>Daniel Wilson</h3>
-                <p>UI Designer</p>
-              </div>
-              <div class="team-card-social">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
+              <div class="team-item__content">
+                <div class="team-item__title">
+                  <h3 class="team-item__name">Daniel Wilson</h3>
+                  <p class="team-item__position">UI Designer</p>
+                </div>
+                <ul class="team-item__social__list">
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social__item">
+                    <a
+                      class="team-item__social-link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
